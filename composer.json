@@ -1,0 +1,36 @@
+{
+    "name": "trunow/shopvam",
+    "description": "Simple based Laravel 5 shop-app",
+	"type": "library",
+	"keywords": [
+        "laravel",
+        "shopvam",
+        "shop"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Slava Trunow",
+            "email": "slava@trunov.me",
+			"homepage": "https://github.com/trunow/shopvam",
+			"role": "Developer"
+        }
+    ],
+	"minimum-stability": "dev",
+	"require": {
+      "php": "^7.1.3",
+      "laravel/framework": "5.7.*"
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Trunow\\Shopvam\\ShopvamServiceProvider"
+        ]
+      }
+    },
+    "autoload": {
+        "psr-4": {
+			"Trunow\\Shopvam\\": "src"
+        }
+    }
+}
